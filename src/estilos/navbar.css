@@ -3,6 +3,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  z-index: 10;
+}
+
+.header-bg {
+  background-color: rgba(0, 0, 0, 0.85);
+  transition: 0.5s;
 }
 
 .nav-menu {
@@ -24,7 +33,11 @@
   font-weight: 500;
 }
 
-@media screen and (max-width: 1040px) {
+.hamburguer {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
   .nav-menu {
     flex-direction: column;
     justify-content: center;
@@ -34,8 +47,13 @@
     background: red;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -100%;
     z-index: -3;
+    transition: 0.3s;
+  }
+
+  .nav-menu.active {
+    left: 0;
   }
 
   .nav-menu li {
@@ -44,5 +62,9 @@
 
   .nav-menu li {
     font-size: 2rem;
+  }
+
+  .hamburguer {
+    display: initial;
   }
 }

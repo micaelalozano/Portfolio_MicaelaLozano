@@ -13,8 +13,9 @@
 }
 
 .project-card {
-  background: blueviolet;
+  background: #444;
   padding: 1.2rem 1rem;
+  border: white solid 2px;
 }
 
 .project-card img {
@@ -38,7 +39,7 @@
   padding: 0.5rem 0;
 }
 
-.pro-btns .btn {
+.pro-btns .btn-2 {
   padding: 0.5rem 1rem;
 }
 

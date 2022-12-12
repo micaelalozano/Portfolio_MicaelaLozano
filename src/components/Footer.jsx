@@ -14,6 +14,7 @@ const Footer = () => {
           <a href="https://github.com/micaelalozano">
             <div className="location">
               <GitHubIcon
+                className="mui"
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
@@ -26,6 +27,7 @@ const Footer = () => {
             <div className="phone">
               <h4 className="h4">
                 <LinkedInIcon
+                  className="mui"
                   size={20}
                   style={{ color: "#fff", marginRight: "2rem" }}
                 />

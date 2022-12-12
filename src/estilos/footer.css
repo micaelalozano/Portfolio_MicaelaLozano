@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
-  padding: 2rem 0;
-  background-color: rgba(199, 57, 57, 0.8);
+  padding: 1rem 0;
+  background-color: darkslateblue;
 }
 
 .footer-container {
@@ -30,7 +30,12 @@
 }
 
 .location p:hover {
-  color: #380f0b;
+  color: lightgreen;
+  transition: all 0.2s ease;
+}
+
+.mui:hover {
+  color: lightgreen;
   transition: all 0.2s ease;
 }
 
@@ -48,7 +53,7 @@ h4 {
 }
 
 .h4:hover {
-  color: #240603;
+  color: lightgreen;
   transition: all 0.2s ease;
 }
 

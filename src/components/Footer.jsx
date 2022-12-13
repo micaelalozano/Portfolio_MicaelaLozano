@@ -41,12 +41,12 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              mail.com
+              miqahela@gmail.com
             </h4>
           </div>
         </div>
         <div className="right">
-          <h4>Sobre Mi</h4>
+          <h4>Sobre Mí</h4>
           <p>
             Soy Micaela y en este portfolio les voy a mostrar algunos de mis
             trabajos.

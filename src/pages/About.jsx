@@ -8,7 +8,9 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <HeroImg2 heading="ACERCA DE MI." text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
+      <HeroImg2 heading="ACERCA DE MÍ." text="Hola! Mi nombre es Micaela,soy una Full Stack Developer de 27 años.
+          Siempre me apasionó aprender todo lo que pudiera en la vida por eso este año decidí dar un salto en mí carrera y realizar un Coding Bootcamp de +800hs,
+          en donde aprendí las tecnologías más demandadas de la industria IT, y a trabajar con metodologías agiles tales como Scrum y Pair Programming." />
       <AboutContent />
       <Footer />
     </>

@@ -7,22 +7,22 @@ const ProjectCardData = [
     imgsrc: ProUno,
     title: "E-Commerce Design",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    view: "https://www.netflix.com/browse",
-    source: "https://www.netflix.com/browse",
+    view: "https://github.com/micaelalozano/Portfolio_",
+    source: "https://github.com/micaelalozano/Portfolio_",
   },
   {
     imgsrc: ProDos,
     title: "TMDB",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    view: "https://www.netflix.com/browse",
-    source: "https://www.netflix.com/browse",
+    view: "https://github.com/micaelalozano/Portfolio_",
+    source: "https://github.com/micaelalozano/Portfolio_",
   },
   {
     imgsrc: ProTres,
     title: "Inmobiliaria Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    view: "https://www.netflix.com/browse",
-    source: "https://www.netflix.com/browse",
+    view: "https://github.com/micaelalozano/Portfolio_",
+    source: "https://github.com/micaelalozano/Portfolio_",
   },
 ];
 

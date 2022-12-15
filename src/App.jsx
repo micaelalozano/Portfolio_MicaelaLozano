@@ -4,6 +4,7 @@ import Inicio from "./pages/Inicio";
 import Project from "./pages/Project";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Enviado from "./components/Enviado";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/proyectos" element={<Project />} />
         <Route path="/acerca_de_mi" element={<About />} />
         <Route path="/contacto" element={<Contact />} />
+        <Route path="/exito" element={<Enviado />} />
       </Routes>
     </>
   );

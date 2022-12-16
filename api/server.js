@@ -9,12 +9,20 @@ app.use(express.static("src"));
 
 //Middleware
 
-app.use(cors());
+app.use(
+  cors({
+    // Si aún no tenes deployado tu front en origin va la url local.
+    // Una vez que se deploye el front acá va esa url que te entrega.
+    origin: "http://localhost:3000",
+    methods: ["GET", "POST", "DELETE", "OPTIONS"],
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 app.use("/api", router);
 
 db.sync({ force: false }).then(() => {
   console.log("Db Connected");
-  app.listen(3001, () => console.log("Servidor escuchando en el puerto 3001"));
+  app.listen(5432, () => console.log("Servidor escuchando en el puerto 5432"));
 });

@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 
-const db = new Sequelize(sammy_ha2d, micaelalozano, LzrU34mpHACfEY0DzSqpb9IwlCDjl6X5, {
-  host: dpg-cedtujpgp3jvikbs8i3g-a,
+const db = new Sequelize("sammy", null, null, {
+  host: "localhost" ,
   dialect: "postgres",
   logging: false,
 });

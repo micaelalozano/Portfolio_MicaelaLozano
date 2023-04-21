@@ -5,6 +5,8 @@ import Project from "./pages/Project";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Enviado from "./components/Enviado";
+import Vesh from "./pages/Vesh";
+import Tmdb from "./pages/Tmdb";
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
         <Route path="/acerca_de_mi" element={<About />} />
         <Route path="/contacto" element={<Contact />} />
         <Route path="/exito" element={<Enviado />} />
+        <Route path="/protecto_E-commerce" element={<Vesh />} />
+        <Route path="/the_movie_data_base" element={<Tmdb />} />
       </Routes>
     </>
   );

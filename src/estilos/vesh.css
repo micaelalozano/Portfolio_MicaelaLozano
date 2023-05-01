@@ -4,9 +4,43 @@
 }
 
 .video {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  width: 90%;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 100%;
   border: solid #333 2px;
   box-shadow: 0px 1px 5px rgb(128, 125, 125);
+}
+
+.nav-p {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 2em;
+  margin-top: 20px;
+}
+
+.deploy {
+  margin-right: 15px;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000,
+    1px -1px 1px #000;
+}
+
+.link-a {
+  font-size: 15px;
+  color: rgb(221, 221, 221);
+}
+
+a:hover {
+  font-size: 15px;
+  color: rgb(97, 86, 165);
+}
+
+.cv-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }

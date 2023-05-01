@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Enviado from "./components/Enviado";
 import Vesh from "./pages/Vesh";
 import Tmdb from "./pages/Tmdb";
+import Inmo from "./pages/Inmo";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/exito" element={<Enviado />} />
         <Route path="/protecto_E-commerce" element={<Vesh />} />
         <Route path="/the_movie_data_base" element={<Tmdb />} />
+        <Route path="/inmobiliaria_website" element={<Inmo />} />
       </Routes>
     </>
   );

@@ -11,6 +11,14 @@ const Vesh = () => {
     <>
       <Navbar />
       <HeroImg2 heading="VESH by Lozano" text="Tecnologías utilizadas: HTML - CSS - Media queries - JavaScript - React " />
+      <div className="nav-p">
+        <p className="deploy">DEPLOY:</p>
+        <p className="link-a">
+          <a href="https://sitiovesh-by-lozano.vercel.app/" target="_blank" rel="noopener noreferrer">
+          https://sitiovesh-by-lozano.vercel.app/
+          </a>
+        </p>
+      </div>
       <div className="contenedor-video">
         <video className="video" src={VeshbyLozano} controls></video>
       </div>

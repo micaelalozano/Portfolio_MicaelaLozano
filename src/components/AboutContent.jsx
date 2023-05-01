@@ -12,7 +12,7 @@ const AboutContent = () => {
         <h1>TECNOLOGÍAS:</h1>
         <p> | React | ReactJS | NodeJS | Express | PostgreSQL | Sequelize | JWT  | NodeMailer | HTML | CSS | JavaScript | Material UI | Bootstrap | GitHub | Trello |</p>
         <Link to="/contacto">
-          <button className="btn">CONTACTO</button>
+          <button className="btn">VER CV</button>
         </Link>
       </div>
       <div className="right">

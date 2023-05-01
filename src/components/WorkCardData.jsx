@@ -1,4 +1,4 @@
-import ProUno from "../assets/ProgrammingIllustration.jpg";
+import ProUno from "../assets/inmo.png";
 import ProDos from "../assets/tmdb.png";
 import ProTres from "../assets/vesh.png";
 
@@ -6,9 +6,9 @@ const ProjectCardData = [
   {
     imgsrc: ProUno,
     title: "Inmobiliaria Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    view: "https://github.com/micaelalozano/Portfolio_",
-    source: "https://github.com/micaelalozano/Portfolio_",
+    text: "Sitio web inmobiliario que permite a los usuarios reservar citas para visitar propiedades y recibir una confirmación por correo electrónico. También agregué una sección de administrador para cargar, editar y eliminar propiedades, y ver información de usuarios y reservas. Además, los usuarios pueden guardar propiedades favoritas y cambiar su foto de perfil.",
+    view: "/inmobiliaria_website",
+    source: "https://github.com/micaelalozano/INMOBILIARIAbyLozano",
   },
   {
     imgsrc: ProDos,
